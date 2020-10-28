@@ -1,4 +1,4 @@
-public class Tester {
+public class TesterSample {
 
   public static void main(String[] args) {
     idTester();
