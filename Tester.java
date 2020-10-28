@@ -3,5 +3,6 @@ public class Tester {
     BankAccount a = new BankAccount(3, "abc");
     System.out.println(a.getBalance());
     System.out.println(a.getAccountID());
+    System.out.println(a.toString());
   }
 }

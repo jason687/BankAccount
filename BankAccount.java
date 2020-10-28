@@ -3,17 +3,21 @@ public class BankAccount {
   private int accountID;
   private String password;
 
-  public BankAccount (int id, String pass) {
+  public BankAccount(int id, String pass) {
     accountID = id;
     password = pass;
     balance = 0;
   }
 
-  public double getBalance () {
+  public double getBalance() {
     return balance;
   }
 
-  public int getAccountID () {
+  public int getAccountID() {
     return accountID;
+  }
+
+  public String toString() {
+    return accountID + "\t" + balance;
   }
 }
